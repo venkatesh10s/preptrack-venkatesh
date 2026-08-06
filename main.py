@@ -165,3 +165,13 @@ for day in range(1, 8):
             critical_score_found = True
             first_critical_day = day
             first_critical_score = score
+
+# ------------------------------------------------------------
+# 4. CALCULATE THE AVERAGE
+# ------------------------------------------------------------
+
+# Prevent division by zero.
+if attempted_days > 0:
+    average_score = total_score / attempted_days
+else:
+    average_score = 0
