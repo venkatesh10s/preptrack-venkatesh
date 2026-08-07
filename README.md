@@ -1,4 +1,4 @@
-# PrepTrack Application
+# PrepTrack- Placement Preparation Performance Analyzer
 
 A command-line Python application that tracks a student's 7-day coding practice performance, validates eligibility criteria, and determines placement interview readiness.
 
